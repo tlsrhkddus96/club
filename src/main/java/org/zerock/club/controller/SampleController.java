@@ -20,9 +20,11 @@ public class SampleController {
         log.info("exMember.....");
     }
 
+
     @GetMapping("/admin")
     public void exAdmin(){
         log.info("exAdmin.....");
     }
+
 
 }

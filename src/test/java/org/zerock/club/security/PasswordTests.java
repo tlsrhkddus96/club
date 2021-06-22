@@ -23,6 +23,7 @@ public class PasswordTests {
         boolean matchResult = passwordEncoder.matches(password, enPw);
 
         System.out.println("matchResult : "+ matchResult);
+
     }
 
 }
